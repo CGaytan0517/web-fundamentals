@@ -1,0 +1,19 @@
+h1{color:white;
+    background-color:black ;
+    font-size: 60px;
+    text-align: left;
+}
+span{color: aqua;
+background-color: black;
+font-size: 60px;
+}
+h2{background-color: purple;
+text-align: center;
+font-style: italic;
+font-size: 50px;
+}
+h3{ background-color: paleturquoise;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 50px;
+}
