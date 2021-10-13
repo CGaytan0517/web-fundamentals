@@ -1,0 +1,86 @@
+#container{
+    background-color: white;
+    height: 279px;
+    width: 500px;
+}
+.cross{
+    background-color: rgb(0, 49, 155);
+
+}
+#square{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+}
+#square2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    margin-left: 27px;
+}
+#square3{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 49, 155);
+    vertical-align: top;
+    margin-top: 27px;
+}
+#square4{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    margin-left: 90px;
+    margin-bottom: 6px;
+    margin-top: -60px;
+    vertical-align: top;
+}
+#rectangle1{
+    width: 351px;
+    height: 32px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -169px;
+    margin-left: 149px;
+
+}
+#rectangle2{
+    width: 350px;
+    height: 32px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -127px;
+    margin-left: 150px;
+}
+
+#rectangle3{
+    width: 350px;
+    height: 32px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -86px;
+    margin-left: 150px;
+}
+#Lrectangle{
+    width: 500px;
+    height: 32px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -39px;
+}
+
+#Lrectangle2{
+    width: 500px;
+    height: 32px;
+    background-color: rgb(0, 49, 155);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+
+}
