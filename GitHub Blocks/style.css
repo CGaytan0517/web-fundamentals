@@ -1,0 +1,47 @@
+#container{
+    width: 665px;
+    height: 800px;
+    background-color: rgb(209, 208, 209);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+color: rgb(78, 78, 78);
+font-size:xx-large;
+}
+.bluebox{
+    background-color: rgb(42, 134, 226);
+    width: 649px;
+    height: 215px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    height:200px;
+    background-color: white;
+
+}
+.purplebox{background-color: rgb(163, 10, 143);
+    width: 649px;
+    height: 215px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.greenbox{background-color: rgb(6, 138, 39);
+    width: 649px;
+    height: 215px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h4{
+    text-align: center;
+}
