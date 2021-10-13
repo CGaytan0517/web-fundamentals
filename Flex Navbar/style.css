@@ -1,0 +1,36 @@
+#rectangle{
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    width: 580px;
+    padding-inline: 10px;
+}
+.nav{
+    width: 400px;
+    height: 50px;
+
+}
+.nav-links{
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -47px;
+    margin-right: -186px;
+    margin-left: 216px;
+    list-style-type: none;
+}
+.nav-title{
+    color: white;
+}
+.btn{
+    width: 70px;
+    height: 26px;
+    background-color: aqua;
+    box-shadow: blue;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
