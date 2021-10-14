@@ -1,0 +1,54 @@
+#container{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    padding: 35px;
+}
+.searchbar{
+    height: 31px;
+    width: 160px;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    border: 3px solid #32a132;
+    border-right: 3px groove #32a132;
+    border-left: 3px groove #32a132;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.plusicon{
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    border: 25px dotted lightskyblue;
+}
+.createaccount{
+    height: 15px;
+    width: 110px;
+    background-color: mediumblue;
+    padding: 10px;
+    border: 1px solid;
+    box-shadow: 4px 5px 1px darkblue;
+
+}
+button{
+    border: 2px none;
+    background: none;
+    text-align: center;
+    
+}
+.searchbar button{
+    font-size: 25px;
+    color: #32a132;
+}
+.plusicon button{
+    font-size: 43px;
+    color: #ffffff;
+    margin-left: -18px;
+    margin-top: -24px;
+}
+.createaccount button{
+    font-size: 14px;
+    color: #ffffff;
+}
