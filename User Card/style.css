@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 600px;
+    min-height: 90px;
+    background-color: hsl(0, 0%, 100%); 
+    padding: 135px 69px;
+}
+    .profilepic img{
+    height: 150px;
+    padding: 1px 30px;
+    margin-top: 24px;
+}
+.bodytext .cog > img{
+    height: 25px;
+    width: 25px;
+    display: flex;
+}
+.bodytext {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#location img{
+    height: 25px;
+    width: 25px;
+    padding: 0px 20px;
+}
+h1{
+    text-align: left;
+    margin: 12px;
+}
+#location{
+    display: flex;
+    padding: 10px 0px;
+}
+p,a{
+    font-size: 17px;
+    padding: 0px 16px;
+}
+.cog{
+    display: flex;
+    padding: 10px 20px;
+}
+#profilebox{
+    width: 600px;
+    height: 380px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 2px 10px grey;
+}
+.bluebox{
+    width: 600px;
+    height: 100px;
+    background-color: hsl(199, 100%, 50%);
+    box-shadow: 1px 2px 10px grey;
+}
