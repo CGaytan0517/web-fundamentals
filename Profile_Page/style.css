@@ -4,9 +4,8 @@
 }
 #container{
     width: 1200px;
-    min-height: 900px;
-    background-color: rgb(54, 54, 54);
-    padding: 0px 70px;
+    height: 1000px;
+    background-color: rgb(112, 112, 112);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,49 +16,196 @@
     width: 1338px;
     height: 70px;
     background-color: black;
-    margin-left: -226px;
-    margin-right: -224px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 21px;
+    box-shadow: 1px 1px 3px;
+}
+.navbar >a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin-left: -130px;
+}
+.navbar > button{
+    border: none;
+    box-shadow: 2px 2px 2px rgb(16, 144, 161);
+    color: white;
+    background-color: rgb(24, 159, 163);
+    font-size: 26px;
 }
 .profile{
-    width: 0%;
-
+    width: 63%;
+    box-shadow: -3px -3px 2px;
 }
-.whitebox{
-    height: 380px;
-    background-color: rgb(255, 255, 255);
+.bluebox > img{
+    height: 450%;
 }
 .bluebox{
-    height: 72px;
+    height: 24px;
     background-color: lightskyblue;
+    padding: 31px 30px;
+    box-shadow: 2px 2px 2px;
+}
+.whitebox{
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px
+}
+.profiletext{
+    padding: 62px 44px;
+}
+.profiletext >h1{
+    font-size: 42px;
+}
+.location> img, .infogear> img{
+    height: 20px;
+    width: 20px;
+}
+.profiletext >p, .infogear > a{
+    font-size: 17px;
+}
+.location,.infogear{
+    display: flex;
+    padding: 40px 0px;
 }
 .requests{
-    width: 0%;
-
+    width: 29%;
+    height: 42%;
+    box-shadow: -3px -3px 2px;
 }
 .botbox{
     height: 72px;
     background-color: rgb(0, 7, 12);
-
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.botbox >h1,.specialborder >h1{
+    font-size: 21px;
+}
+.specialborder{
+    border-color: gray;
+    border-radius: 100%;
+    border: 15px solid gray;
+    background-color: gray;
+    height: 0px;
+    width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .topbox{
     height: 375px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px;
 }
-.connections{
-    width: 0%;
+.insideRequests{
+    height: 302px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
 }
-.botbox1{
-    height: 72px;
-    background-color: rgb(0, 7, 12);
+.insideRequests > img{
+    height: 70px;
+    width: 70px;
 }
-.topbox1{
-    height: 375px;
-    background-color: rgb(255, 255, 255);
+.decidingcirclesrow1 > img, .decidingcirclesrow2 > img{
+    height: 30px;
+    width: 30px;
 }
+
 #body{
+    width: 72%;
+    min-height: 78%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-between;
+}
+.education{
+    width: 64%;
+    margin-top: 31px;
+    box-shadow: -3px -3px 2px;
+}
+.EDUbotbox{
+    height: 72px;
+    background-color: rgb(0, 7, 12);
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    align-items: center;
+}
+.EDUbotbox >h1{
+    color: white;
+    font-size: 36px;
+    margin-left: 25px;
+}
+.EDUtopbox{
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.EDUtopbox > h4 ,p{
+    font-size: 20px;
+}
+.navbar > h1{
+    color: white;
+}
+.connections{
+    width: 30%;
+    margin-top: -24px;
+    box-shadow: -3px -3px 2px;
+}
+.botbox1{
+    height: 72px;
+    background-color: rgb(0, 7, 12);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.botbox1 > h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 21px;
+}
+.topbox1{
+    height: 492px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px
+}
+.connectionPeople{
+    height: 302px;
+    width: 250px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.connectionPeople > img{
+    height: 80px;
+    padding: 10px 0px;
+}
+.viewMore{   
+    height: 76px;
+    background-color: rgb(255, 255, 255);   
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
 }
