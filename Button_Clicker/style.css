@@ -61,6 +61,7 @@
 .topNinjaText > h2, .botNinjaText >h2{
     margin-top: -32px;
     font-style: italic;
+    margin-left: 21px;
 }
 p{
     font-size: 30px;
