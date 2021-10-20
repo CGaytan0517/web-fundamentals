@@ -1,0 +1,118 @@
+.container{
+    height: 700px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar{
+    height: 90px;
+    width: 1200px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 0px 10px grey;
+}
+.navbar >h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.navbar >input{
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+}
+.navbar > button{
+    border: none;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(7, 97, 199);
+    box-shadow: 4px 5px 1px 1px rgb(0 47 100);
+    margin-right: 40px;
+}
+.bodylego{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.ninjaboxtop{
+    height: 250px;
+    width: 770px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0px 2px rgb(255, 255, 255);
+    border: solid 3px #000000ad;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.topNinjaText,.botNinjaText{
+    margin-top: -90px;
+    padding: 0px 23px;
+}
+.topNinjaText > h1, .botNinjaText >h1{
+    font-size: 55px;
+}
+.topNinjaText > h2, .botNinjaText >h2{
+    margin-top: -32px;
+    font-style: italic;
+}
+p{
+    font-size: 30px;
+    width: 356px;
+    padding: 0px 96px;
+    text-align: center;
+}
+.topNinjaText > button, .botNinjaText >button{
+    border: none;
+    background-color: yellow;
+    height: 45px;
+    width: 110px;
+    box-shadow: 2px 2px 2px 3px black;
+    font-size: 25px;
+}
+.ninjaboxbot{
+
+    height: 250px;
+    width: 770px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    box-shadow: 1px 0px 2px rgb(255, 255, 255);
+    border: solid 3px #000000ad;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.dojobox{
+    height: 212px;
+    display: flex;
+    width: 386px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0px 2px rgb(255 255 255);
+    border: solid 3px #000000ad;
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+}
+.dojobox > p{
+    font-size: 30px;
+    width: 202px;
+    padding: 0px 93px;
+    text-align: center;
+}
+.dojobox > button{
+    border: none;
+    background-color: rgb(104, 201, 104);
+    height: 48px;
+    width: 320px;
+    box-shadow: 2px 2px 2px 3px black;
+    font-size: 25px;
+}
+
