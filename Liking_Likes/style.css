@@ -1,0 +1,92 @@
+.container{
+    height: 1200px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+.navbar{
+    height: 90px;
+    width: 1200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 0px 10px rgb(0, 0, 0);
+    border: solid 3px #000000ad;
+}
+.navbar >h1{
+    font-size: 50px;
+    margin-left: 20px;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.blocks{
+    display: flex;
+    padding: 0px 30px;
+}
+.avatar{
+    height: 450px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 0px 10px grey;
+    border: solid 3px #000000ad;
+}
+.avatar >img{
+    height: 170px;
+}
+.avatar > a{
+    font-size: 30px;
+}
+.avatar > h1{
+    font-size: 45px;
+}
+.feedBody{
+    height: 825px;
+    width: 810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feedboxtop,.feedboxmid,.feedboxbot{
+    height: 250px;
+    width: 820px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    box-shadow: 1px 0px 10px grey;
+    border: solid 3px #000000ad;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.feedboxtop>h2,.feedboxmid>h2,.feedboxbot>h2{
+    font-size: 45px;
+    padding: 0px 30px;
+    height: 35px;
+    width: 192px;
+}
+.feedboxtop> p, .feedboxmid> p, .feedboxbot> p{
+    font-size: 40px;
+    margin-bottom: 53px;
+    padding: 0px 42px;
+}
+.feedboxtop> button, .feedboxmid> button, .feedboxbot> button{
+    height: 55px;
+    width: 115px;
+    margin-left: 130px;
+    border: none;
+    background-color: yellow;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.feedboxtop> h3, .feedboxmid> h3, .feedboxbot> h3{
+    font-size: 25px;
+    padding: 0px 93px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liking Likes</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <h1>Your Feed</h1>
+        <div class="blocks">
+            <div class="avatar">
+                <img src="icons/user-circle.png" href="User default picture">
+                <a href="#">Add an avatar</a>
+                <h1>Carlos Gaytan</h1>
+            </div>
+            <div class="feedBody">
+                <div class="feedboxtop">
+                    <h2>Neil M</h2>
+                    <h3 id="counttop">9 like(s)</h3>
+                    <button name="liketop" onclick="clickFunction(this)">Like</button>
+                    <p>I just set up this new discord bot, let me know what you all think.<a href="#">link</a></p>
+                </div>
+                <div class="feedboxmid">
+                    <h2>Nichole K</h2>
+                    <h3 id="countmid">12 like(s)</h3>
+                    <button name="likemid" onclick="clickFunction(this)">Like</button>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="feedboxbot">
+                    <h2>Jim R</h2>
+                    <h3 id="countbot">9 like(s)</h3>
+                    <button name="likebot" onclick="clickFunction(this)">Like</button>
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
